@@ -21,10 +21,10 @@ These works provide an overview of my research.
 
 ## Pedestrian Crossing Intention Prediction
 
-<!-- ![text](/images/profile.png){: .align-left width="100px"; padding-right: "20px"} -->
+![text](/images/profile.png){: .align-left width="100px"; padding-right: "20px"}
 
 <figure>
-  <img src="/images/PIE.png" alt="Your Figure">
+  <img src="/images/PIE.png" alt="Your Figure" width="50%" height="auto">
   <figcaption>Figure Name: GCN-based Autoencoder and ST-GCN for Traffic Participant Interaction Feature Extraction</figcaption>
 </figure>
 
