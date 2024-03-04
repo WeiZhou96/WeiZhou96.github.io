@@ -10,25 +10,48 @@ These works provide an overview of my research.
 
 ## Traffic Participant Detection
 * <u>Zhou, W.</u>, Wang, C., Xia, J., Qian, Z., & Wu, Y. (2023). **Monitoring-based traffic participant detection in urban mixed traffic: A novel dataset and a tailored detector**. *IEEE Transactions on Intelligent Transportation Systems*. ( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3304288"> [Paper]</a>
+
+  <figure>
+    <img src="/images/SEUPML.png" alt="Your Figure" width="50%" height="auto">
+    <figcaption>Figure Name: Detection results of a detector trained on our proposed dataset (SEU_PML)</figcaption>
+  </figure>
+
 * <u>Zhou, W.</u>, Wang, C., Ge, Y., Wen, L., & Zhan, Y. (2023). **All-Day Vehicle Detection From Surveillance Videos Based on Illumination-Adjustable Generative Adversarial Network**. *IEEE Transactions on Intelligent Transportation Systems*.( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3328195"> [Paper]</a>
+
+  <figure>
+    <img src="/images/ALLDAY.png" alt="Your Figure" width="50%" height="auto">
+    <figcaption>Figure Name: Our IA-GAN could transform day-time images into synthetic nighttime images under divers illumination</figcaption>
+  </figure>
 
 
 ## Road Accident (Anomaly) Detection/Prediction
 * <u>Zhou, W.</u>, Wen, L., Zhan, Y., & Wang, C. (2023). **An appearance-motion network for vision-based crash detection: Improving the accuracy in congested traffic**. *IEEE transactions on intelligent transportation systems*.  ( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3297589"> [Paper]</a>
-*  <u>Zhou, W.</u>, Yu, Y., Zhan, Y., & Wang, C. (2022). **A vision-based abnormal trajectory detection framework for online traffic incident alert on freeways**. *Neural Computing and Applications*, 34(17), 14945-14958.  ( **JCR Q2, IF =6.0** )<a href="https://doi.org/10.1007/s00521-022-07335-w"> [Paper]</a>
+
+  <figure>
+    <img src="/images/image105.gif" alt="Your Figure" width="50%" height="auto">
+    <figcaption>Figure Name: Detection Demo1 towards Road Accidents</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/images/image106.gif" alt="Your Figure" width="50%" height="auto">
+    <figcaption>Figure Name: Detection Demo2 towards Road Accidents</figcaption>
+  </figure>
+
+* <u>Zhou, W.</u>, Yu, Y., Zhan, Y., & Wang, C. (2022). **A vision-based abnormal trajectory detection framework for online traffic incident alert on freeways**. *Neural Computing and Applications*, 34(17), 14945-14958.  ( **JCR Q2, IF =6.0** )<a href="https://doi.org/10.1007/s00521-022-07335-w"> [Paper]</a>
+
 * Wang, C., <u>Zhou, W\*.</u>, Yan, J., & Gong, Y. (2023). **一种用于道路交通事故自动检测的改进双流网络**. *China Journal of Highway and Transport*. ( **Top 1 transportation journal in China**)<a href="https://doi.org/10.1016/j.trc.2021.103410"> [Paper]</a>
 
 
 ## Pedestrian Crossing Intention Prediction
 
-![text](/images/profile.png){: .align-left width="100px"; padding-right: "20px"}
 
-<figure>
-  <img src="/images/PIE.png" alt="Your Figure" width="50%" height="auto">
-  <figcaption>Figure Name: GCN-based Autoencoder and ST-GCN for Traffic Participant Interaction Feature Extraction</figcaption>
-</figure>
 
 * <u>Zhou, W.</u>, Liu, Y., Zhao, L., Xu, S., & Wang, C. (2023). **Pedestrian Crossing Intention Prediction From Surveillance Videos for Over-the-Horizon Safety Warning**. <i> IEEE Transactions on Intelligent Transportation Systems</i>. ( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3314051"> [Paper]</a>
+
+  <figure>
+    <img src="/images/PIE.png" alt="Your Figure" width="50%" height="auto">
+    <figcaption>Figure Name: ST-GCN for Traffic Participants' Interaction Feature Extraction</figcaption>
+  </figure>
 
 * Zhao, L., <u>Zhou, W.</u>, Xu, S., Chen, Yu., & Wang, C. * . **Multi-agent trajectory prediction at unsignalized intersections: an improved generative adversarial network accounting for collision avoidance behaviors**. <i> Transportation Research Part C </i> ( **JCR Q1, IF =8.3** ) (Minor Revision)
 
