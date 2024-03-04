@@ -5,27 +5,34 @@ excerpt: " "
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html
+  - /about.html 
 ---
 
-I am currently a postdoc associate at the Singapore-MIT Alliance for Research and Technology (SMART). I earned my Ph.D. in Transportation from MIT in 2024 and completed dual Master's degrees in City Planning and Transportation at MIT in 2021, advised by Prof. [Jinhua Zhao](https://dusp.mit.edu/people/jinhua-zhao). Prior to my time at MIT, I obtained dual Bachelor's degrees in Urban Management and Economics from Peking University.
+
+I am a Ph.D. candidate at Southeast University, advised by Prof. [Chen Wang](https://tc.seu.edu.cn/2019/1022/c25722a292001/pagem.htm). I am currently in the fourth year of my doctoral studies, expected to graduate before March 2025.
+
+As of now, I have published and had accepted a total of **25 academic papers**, including both journal and conference papers. It is important to note that I have published or had accepted **11 papers** as the **first author/corresponding author in top journals**, such as *IEEE Transactions on Intelligent Transportation Systems and Automation in Construction*, with **9** of these papers in **JCR Q1** journals, including **5** papers published in **IEEE TITS** as **the first author**.
+
+Moreover, I also serve as a young editorial board member for Digital Transportation and Safety and am a reviewer for top journals including IEEE TITS, IEEE TVT, AAP, Advanced Engineering Informatics, Engineering Applications of Artificial Intelligence, Journal of Cleaner Production, and Neural Networks.
+
+My research interests mainly include the application of **computer vision** technology in the **transportation field**:
+* **2D/3D vehicle detection and tracking**: Focuses on visual sensors and LiDAR for roadside monitoring, targeting deficiencies in the accuracy of existing detection/tracking methods under adverse weather/lighting conditions and complex traffic scenarios. Utilizes GAN generative methods and small object detection techniques to improve existing methods.
+* **Accident (road anomaly) detection/prediction**:  Implements rapid accident detection by constructing (lightweight) deep networks to capture accident appearance features (such as vehicle damage) and motion features (sudden decrease in speed); Achieves accident prediction through group relationship modeling and spatiotemporal reasoning.
+* ** Few-shot learning & Domain adaptation**: Addresses the dependence of deep learning models on large data sets and the difficulty of data collection in some scenarios by researching few-shot learning and domain adaptation methods that require only a small number of samples to train and converge the model.
+* **Pedestrian crossing intention prediction&Trajectory prediction**: Achieves pedestrian crossing intention recognition and trajectory prediction by modeling the relationships of the group around the pedestrian and the pedestrian's own attributes (such as posture, appearance, and historical trajectory).
+* ** Multi-modal large models**: Large models, also known as foundation models, possess a wealth of prior knowledge after being trained on vast amounts of data, demonstrating powerful zero-shot and few-shot capabilities. Their potential in the field of traffic perception awaits further exploration.
 
 
-My research area is the intersection of **Causal Inference**, **Urban Computing**, and **Travel Decisions**:
 
-* **Causal Inference, Transportation Economics and Policy**: Leveraging advanced causal inference methods for the assessment of emerging transportation tools like congestion pricing, EV charging infrastructure, and teleworking on mobility, environment, economy, and social equity.
-* **Urban Computing and Machine Learning**: Developing machine learning algorithms to predict and nudge travel behaviors; developing bias-mitigation methods to enhance fairness and equity in machine learning algorithms.
-* **Travel Decisions and Urban Network**: Combining statistical modeling, deep learning computation, and network theory for the modeling and analysis of individual travel decisions and urban networks.
-
-<p style="color:red">I am currently seeking highly motivated summer research assistant students for 2024. Interested candidates are strongly encouraged to contact me via email, along with their resume and transcripts. </p>
+<p style="color:red">I am currently seeking postdoctoral positions overseas (excluding Mainland China), preferably within the top 50 QS-ranked institutions, in the field of traffic applications of computer vision. The research interests mentioned above are all applicable </p>
 
 ## News
-* **[2024-02]** My first-authored paper "Impacts of remote work on vehicle miles traveled and transit ridership in the United States", has been accepted by <i> Nature Cities</i>!
-* **[2024-01]** My co-first-authored paper with Prof. [Shenhao Wang](https://dcp.ufl.edu/urp/people_wang_s/), "Infrequent Activities Predict Economic Outcomes in Major American Cities", has been accepted by <i> Nature Cities</i>!
-* **[2023-11]** Our paper  "Deep hybrid model with satellite imagery: how to combine demand modeling and computer vision for travel behavior analysis" has been accepted by <i> Transportation Research Part B: Methodological</i>!
-* **[2023-07]** My first-authored paper  "Fairness-enhancing deep learning for ride-hailing demand prediction" has been accepted by <i> IEEE Open Journal of Intelligent Transportation Systems</i>!
-* **[2023-06]** My first-authored paper  "Examining the interactions between working from home, travel behavior and change in car ownership due to the impact of COVID-19" has been accepted by <i> Travel Behaviour and Society</i>!
-* **[2023-03]** My first-authored paper  "Impacts of congestion pricing on ride-hailing ridership: evidence from Chicago" has been accepted by <i> Transportation Research Part A: Policy and Practice</i>!
+* **[2024-01]** My first-authored paper "A Fast and Data-Efficient Deep Learning Framework for Multi-Class Fruit Blossom Detection", has been accepted by <i> Computers and Electronics in Agriculture (JCR Q1, IF=8.3)</i>!
+* **[2023-11]** My first-authored paper "All-day Vehicle Detection from Surveillance Videos Based on Illumination-adjustable Generative Adversarial Network", has been accepted by <i> IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
+* **[2023-09]** My first-authored paper "Pedestrian Crossing Intention Prediction from Surveillance Videos for Over-the-horizon Safety Warning", has been accepted by <i> IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
+* **[2023-08]** My first-authored paper "Monitoring-based Traffic Participant Detection in Urban Mixed Traffic: A Novel Dataset and A Tailored Detector", has been accepted by <i> IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
+* **[2023-07]** My first-authored paper "An Appearance-Motion Network for Vision-based Crash Detection: Improving the Accuracy in Congested Traffic", has been accepted by <i> IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
+
 
 <!-- My research focuses on (1) causal inference in urban economics and transportation and (2) enhancing machine learning fairness in transportation planning and policy-making.  My previous research involves using causal inference methods to assess the impacts of emerging transportation tools like congestion pricing, EV charging infrastructure, and teleworking on mobility, environment, economy, and social equity. I am also committed to developing bias-mitigation algorithms to enhance fairness and equity in travel behavior analysis and demand prediction. -->
 
