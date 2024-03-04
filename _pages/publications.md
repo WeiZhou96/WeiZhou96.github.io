@@ -8,43 +8,43 @@ These works provide an overview of my research.
 
 ( * indicates the corresponding author.)
 
-## Transportation Economics and Policy
-* <u>Zheng, Y.</u>, Wang, S.*, Liu, L., Aloisi, J. & Zhao, J.  **Impacts of remote work on vehicle miles traveled and transit ridership in the United States**. Accepted by <i> Nature Cities</i>.
-
-* Wang, S.<sup>1</sup><span>&#42;</span>, <u>Zheng, Y.<sup>1</sup></u>, Wang, G., Yabe, T., Moro, E.<span>&#42;</span> & Pentland, A.  **Infrequent activities predict economic outcomes in major American cities**. Accepted by <i> Nature Cities</i>. ( <sup>1</sup> indicates the co-first authors.)
-
-* <u>Zheng, Y.*</u>, Meredith-Karam, P., Stewart, A., Kong, H., & Zhao, J. (2023). **Impacts of congestion pricing on ride-hailing ridership: Evidence from Chicago**. <i> Transportation Research Part A: Policy and Practice, 170,</i> 103639. <a href="https://doi.org/10.1016/j.tra.2023.103639"> [Paper]</a>
-
-* <u>Zheng, Y.</u>, Moody, J., Wang, S., & Zhao, J*. (2021). **Measuring policy leakage of Beijing’s car ownership restriction**.  <i> Transportation Research Part A: Policy and Practice, 148,</i> 223-236. <a href="https://doi.org/10.1016/j.tra.2021.03.008"> [Paper]</a>
-
-* Fang, W., <u>Zheng, Y.</u>, Diao, M., & Zhao, J. (2021). **Dispersion of agglomeration through high-speed rail in China**. In <i> Urban Form and Accessibility</i> (pp. 327-357). Elsevier. <a href="https://doi.org/10.1016/B978-0-12-819822-3.00012-2"> [Paper]</a>
+## Traffic Participant Detection
+* <u>Zhou, W.</u>, Wang, C., Xia, J., Qian, Z., & Wu, Y. (2023). **Monitoring-based traffic participant detection in urban mixed traffic: A novel dataset and a tailored detector**. *IEEE Transactions on Intelligent Transportation Systems*. ( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3304288"> [Paper]</a>
+* <u>Zhou, W.</u>, Wang, C., Ge, Y., Wen, L., & Zhan, Y. (2023). **All-Day Vehicle Detection From Surveillance Videos Based on Illumination-Adjustable Generative Adversarial Network**. *IEEE Transactions on Intelligent Transportation Systems*.( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3328195"> [Paper]</a>
 
 
+## Road Accident (Anomaly) Detection/Prediction
+* <u>Zhou, W.</u>, Wen, L., Zhan, Y., & Wang, C. (2023). **An appearance-motion network for vision-based crash detection: Improving the accuracy in congested traffic**. *IEEE transactions on intelligent transportation systems*.  ( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3297589"> [Paper]</a>
+*  <u>Zhou, W.</u>, Yu, Y., Zhan, Y., & Wang, C. (2022). **A vision-based abnormal trajectory detection framework for online traffic incident alert on freeways**. *Neural Computing and Applications*, 34(17), 14945-14958.  ( **JCR Q2, IF =6.0** )<a href="https://doi.org/10.1007/s00521-022-07335-w"> [Paper]</a>
+* Wang, C., <u>Zhou, W\*.</u>, Yan, J., & Gong, Y. (2023). **一种用于道路交通事故自动检测的改进双流网络**. *China Journal of Highway and Transport*. ( **Top 1 transportation journal in China**)<a href="https://doi.org/10.1016/j.trc.2021.103410"> [Paper]</a>
 
-## Fairness-Enhancing Machine Learning 
+
+## Pedestrian Crossing Intention Prediction
 
 <!-- ![text](/images/profile.png){: .align-left width="100px"; padding-right: "20px"} -->
 
-<!-- <figure class="align-left" style="width: 100px; padding-right: 20px;">
-  <img src="/images/profile.png" alt="Your Figure">
-  <figcaption>Figure 1: Your Figure Caption</figcaption>
-</figure> -->
+<figure class="align-left" style="width: 100px; padding-right: 20px;">
+  <img src="/images/PIE.png" alt="Your Figure">
+  <figcaption>Figure Name: GCN-based Autoencoder and ST-GCN for Traffic Participant Interaction Feature Extraction</figcaption>
+</figure>
 
-* <u>Zheng, Y.</u>, Wang, S.*, & Zhao, J. (2021). **Equality of opportunity in travel behavior prediction with deep neural networks and discrete choice models**. <i> Transportation Research Part C: Emerging Technologies, 132,</i> 103410. <a href="https://doi.org/10.1016/j.trc.2021.103410"> [Paper]</a>
+* <u>Zhou, W.</u>, Liu, Y., Zhao, L., Xu, S., & Wang, C. (2023). **Pedestrian Crossing Intention Prediction From Surveillance Videos for Over-the-Horizon Safety Warning**. <i> IEEE Transactions on Intelligent Transportation Systems</i>. ( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3314051"> [Paper]</a>
 
-* <u>Zheng, Y.</u>, Wang, Q., Zhuang, D., Wang, S.*, & Zhao, J. (2023). **Fairness-enhancing deep learning for ride-hailing demand prediction**. <i> IEEE Open Journal of Intelligent Transportation Systems, 4, </i> 551 - 569. <a href="https://doi.org/10.1109/OJITS.2023.3297517"> [Paper]</a>
+* Zhao, L., <u>Zhou, W.</u>, Xu, S., Chen, Yu., & Wang, C. * . **Multi-agent trajectory prediction at unsignalized intersections: an improved generative adversarial network accounting for collision avoidance behaviors**. <i> Transportation Research Part C </i> ( **JCR Q1, IF =8.3** ) (Minor Revision)
 
-* Guo, X., Xu, H., Zhuang, D., <u>Zheng, Y.*</u>, & Zhao, J. (2023). **Fairness-Enhancing Vehicle Rebalancing in the Ride-hailing System**.  Under review in <i> Transportation Research Part A: Policy and Practice</i>. <a href="https://arxiv.org/abs/2401.00093"> [Paper]</a>
 
-## Travel Decisions and Demand Modeling
-* <u>Zheng, Y.</u>, Kong, H.*, Petzhold, G., Barcelos, M. M., Zegras, C. P., & Zhao, J. (2021). **User satisfaction and service quality improvement priority of bus rapid transit in Belo Horizonte, Brazil**. <i> Case Studies on Transport Policy, 9</i> (4), 1900-1911. <a href="https://doi.org/10.1016/j.cstp.2021.10.011"> [Paper]</a>
 
-* <u>Zheng, Y.</u>, Kong, H.*, Petzhold, G., Barcelos, M. M., Zegras, C. P., & Zhao, J. (2022). **Gender differences in the user satisfaction and service quality improvement priority of public transit bus system in Porto Alegre and Fortaleza, Brazil**. <i> Travel Behaviour and Society, 28</i>, 22-37. <a href="https://doi.org/10.1016/j.tbs.2022.02.003"> [Paper]</a>
+## Few-shot learning & Domain adaptation
+* <u>Zhou, W.</u>, Zhan, Y., Zhang, H., Zhao, L., & Wang, C. (2022). **Road defect detection from on-board cameras with scarce and cross-domain data**. *Automation in Construction*, 144, 104628.  ( **JCR Q1, IF =10.3** )<a href="https://doi.org/10.1016/j.autcon.2022.104628"> [Paper]</a>
 
-* <u>Zheng, Y.*</u>, Caros, N. S., Aloisi, J., & Zhao, J. (2023). **Examining the interactions between working from home, travel behavior and change in car ownership due to the impact of COVID-19**. <i> Travel Behaviour and Society, 33</i>, 100634. <a href="https://doi.org/10.1016/j.tbs.2023.100634"> [Paper]</a>
+* <u>Zhou, W.</u>, Liu, Y., Wang, C., Zhan, Y., Dai, Y., & Wang, R. (2022). **An automated learning framework with limited and cross-domain data for traffic equipment detection from surveillance videos**. *IEEE Transactions on Intelligent Transportation Systems*, 23(12), 24891-24903. ( **JCR Q1, IF =8.5** )  <a href="https://doi.org/10.1109/TITS.2022.3195509"> [Paper]</a>
 
-* Wang, Q., Wang, S.*, <u>Zheng, Y.</u>, Lin, H., Zhang, X., Zhao, J., & Walker, J. (2024). **Deep hybrid model with satellite imagery: How to combine demand modeling and computer vision for travel behavior analysis?**. <i> Transportation Research Part B: Methodological, 179</i>, 102869. <a href="https://doi.org/10.1016/j.trb.2023.102869"> [Paper]</a>
+* <u>Zhou, W.</u>, Cui, Y., Huang, H., Huang, H., & Wang, C. (2024). **A fast and data-efficient deep learning framework for multi-class fruit blossom detection**. Computers and Electronics in Agriculture, 217, 108592.  ( **JCR Q1, IF =8.3** ) <a href="https://doi.org/10.1016/j.compag.2023.108592"> [Paper]</a>
 
+* <u>Zhou, W.</u>, Zhao, L., Huang, H., Chen, Y., Xu, S., & Wang, C. (2023). **Automatic waste detection with few annotated samples: improving waste management efficiency**. Engineering Applications of Artificial Intelligence, 120, 105865.  ( **JCR Q1, IF =8.0** ) <a href="https://doi.org/10.1016/j.engappai.2023.105865"> [Paper]</a>
+
+## Large Models
+* <u>Zhou, W.</u>, Huang, H., Zhang, H.,  & Wang, C. * . **Teaching Segment-Anything-Model Domain-specific Knowledge for Road Crack Segmentation from On-board Cameras**. <i> IEEE Transactions on Intelligent Transportation Systems. </i> ( **JCR Q1, IF =8.5** )   (Major Revision)
 
 
 
