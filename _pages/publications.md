@@ -23,7 +23,7 @@ These works provide an overview of my research.
 
 <!-- ![text](/images/profile.png){: .align-left width="100px"; padding-right: "20px"} -->
 
-<figure class="align-left" style="width: 100px; padding-right: 20px;">
+<figure>
   <img src="/images/PIE.png" alt="Your Figure">
   <figcaption>Figure Name: GCN-based Autoencoder and ST-GCN for Traffic Participant Interaction Feature Extraction</figcaption>
 </figure>
