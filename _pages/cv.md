@@ -42,17 +42,14 @@ Awards
 
 Academic Participation
 ======
-| Journal/Publication                                  | Type    | Role                        |
-|-----------------------------------------------------|---------|-----------------------------|
-| Digital Transportation and Safety                   | Journal | Young Editorial Board Member|
-| IEEE Transactions on Intelligent Transportation Systems | JCR Q1  | Reviewer                    |
-| IEEE Transactions on Intelligent Vehicles | JCR Q1  | Reviewer                    |
-| IEEE Transactions on Vehicular Technology          | JCR Q1  | Reviewer                    |
-| Accident Analysis and Prevention                    | JCR Q1  | Reviewer                    |
-| Advanced Engineering Informatics                    | JCR Q1  | Reviewer                    |
-| Engineering Applications of Artificial Intelligence | JCR Q1  | Reviewer                    |
-| Neural Networks                                     | JCR Q1  | Reviewer                    |
-| Journal of Cleaner Production                       | JCR Q1  | Reviewer                    |
+* Digital Transportation and Safety	Journal	Young Editorial Board Member
+* IEEE Transactions on Intelligent Transportation Systems	JCR Q1	Reviewer
+* IEEE Transactions on Vehicular Technology	JCR Q1	Reviewer
+* Accident Analysis and Prevention	JCR Q1	Reviewer
+* Advanced Engineering Informatics	JCR Q1	Reviewer
+* Engineering Applications of Artificial Intelligence	JCR Q1	Reviewer
+* Neural Networks	JCR Q1	Reviewer
+* Journal of Cleaner Production	JCR Q1	Reviewer
 
 Academic Promotion
 ======
