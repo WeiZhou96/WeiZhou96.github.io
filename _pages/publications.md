@@ -39,7 +39,7 @@ These works provide an overview of my research.
 
 * <u>Zhou, W.</u>, Yu, Y., Zhan, Y., & Wang, C. (2022). **A vision-based abnormal trajectory detection framework for online traffic incident alert on freeways**. *Neural Computing and Applications*, 34(17), 14945-14958.  ( **JCR Q2, IF =6.0** )<a href="https://doi.org/10.1007/s00521-022-07335-w"> [Paper]</a>
 
-* Wang, C., <u>Zhou, W\*.</u>, Yan, J., & Gong, Y. (2023). **一种用于道路交通事故自动检测的改进双流网络**. *China Journal of Highway and Transport*. ( **Top 1 transportation journal in China**)<a href="https://doi.org/10.1016/j.trc.2021.103410"> [Paper]</a>
+* Wang, C., <u>Zhou, W\*.</u>, Yan, J., & Gong, Y. (2023). **一种用于道路交通事故自动检测的改进双流网络**. *China Journal of Highway and Transport*. ( **Top 1 transportation journal in China**)<a href="https://doi.org/10.19721/j.cnki.1001-7372.2023.05.016"> [Paper]</a>
 
 
 ## Pedestrian Crossing Intention Prediction
@@ -50,7 +50,7 @@ These works provide an overview of my research.
 
   <figure>
     <img src="/images/PIE.png" alt="Your Figure" width="50%" height="auto">
-    <figcaption>Figure Name: ST-GCN for Traffic Participants' Interaction Feature Extraction</figcaption>
+    <figcaption>Figure Name: Pedestrian Crossing Intention Prediction based on Interaction Modeling and Behavior Analysis </figcaption>
   </figure>
 
 * Zhao, L., <u>Zhou, W.</u>, Xu, S., Chen, Yu., & Wang, C. * . **Multi-agent trajectory prediction at unsignalized intersections: an improved generative adversarial network accounting for collision avoidance behaviors**. <i> Transportation Research Part C </i> ( **JCR Q1, IF =8.3** ) (Minor Revision)
@@ -59,6 +59,11 @@ These works provide an overview of my research.
 
 ## Few-shot learning & Domain adaptation
 * <u>Zhou, W.</u>, Zhan, Y., Zhang, H., Zhao, L., & Wang, C. (2022). **Road defect detection from on-board cameras with scarce and cross-domain data**. *Automation in Construction*, 144, 104628.  ( **JCR Q1, IF =10.3** )<a href="https://doi.org/10.1016/j.autcon.2022.104628"> [Paper]</a>
+
+  <figure>
+    <img src="/images/CRACK.png" alt="Your Figure" width="50%" height="auto">
+    <figcaption>Figure Name: Few Shot Learning Framework for Crack Detection with Few Labeled Samples </figcaption>
+  </figure>
 
 * <u>Zhou, W.</u>, Liu, Y., Wang, C., Zhan, Y., Dai, Y., & Wang, R. (2022). **An automated learning framework with limited and cross-domain data for traffic equipment detection from surveillance videos**. *IEEE Transactions on Intelligent Transportation Systems*, 23(12), 24891-24903. ( **JCR Q1, IF =8.5** )  <a href="https://doi.org/10.1109/TITS.2022.3195509"> [Paper]</a>
 
@@ -69,5 +74,8 @@ These works provide an overview of my research.
 ## Large Models
 * <u>Zhou, W.</u>, Huang, H., Zhang, H.,  & Wang, C. * . **Teaching Segment-Anything-Model Domain-specific Knowledge for Road Crack Segmentation from On-board Cameras**. <i> IEEE Transactions on Intelligent Transportation Systems. </i> ( **JCR Q1, IF =8.5** )   (Major Revision)
 
-
+<figure>
+  <img src="/images/SAM.png" alt="Your Figure" width="50%" height="auto">
+  <figcaption>Figure Name: Developing Parameter-efficient Transfer Learning Method on Segment-Anything-Model for Crack Segmentation </figcaption>
+</figure>
 
