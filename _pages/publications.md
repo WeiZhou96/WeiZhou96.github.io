@@ -28,13 +28,13 @@ These works provide an overview of my research.
 * <u>Zhou, W.</u>, Wen, L., Zhan, Y., & Wang, C. (2023). **An appearance-motion network for vision-based crash detection: Improving the accuracy in congested traffic**. *IEEE transactions on intelligent transportation systems*.  ( **JCR Q1, IF =8.5** )<a href="https://doi.org/10.1109/TITS.2023.3297589"> [Paper]</a>
 
   <figure>
-    <img src="/images/slider/image105.gif" alt="Your Figure" width="80%" height="auto">
-    <figcaption>Detection Demo1 towards Road Accidents</figcaption>
+    <img src="/images/image105.gif" alt="Your Figure" width="80%" height="auto">
+    <figcaption> Detection Demo1 towards Road Accidents </figcaption>
   </figure>
 
   <figure>
-    <img src="/images/slider/image106.gif" alt="Your Figure" width="80%" height="auto">
-    <figcaption> Detection Demo2 towards Road Accidents</figcaption>
+    <img src="/images/image106.gif" alt="Your Figure" width="80%" height="auto">
+    <figcaption> Detection Demo2 towards Road Accidents </figcaption>
   </figure>
 
 * <u>Zhou, W.</u>, Yu, Y., Zhan, Y., & Wang, C. (2022). **A vision-based abnormal trajectory detection framework for online traffic incident alert on freeways**. *Neural Computing and Applications*, 34(17), 14945-14958.  ( **JCR Q2, IF =6.0** )<a href="https://doi.org/10.1007/s00521-022-07335-w"> [Paper]</a>
