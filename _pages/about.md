@@ -24,7 +24,7 @@ My research interest mainly includes the application of **computer vision** tech
 
 
 
-<p style="color:red">I am currently seeking postdoctoral positions overseas (excluding Mainland China), preferably within the top 50 QS-ranked institutions, in the field of traffic applications of computer vision. The research interests mentioned above are all applicable </p>
+<p style="color:red">I am currently seeking postdoctoral positions abroad (excluding Mainland China), preferably within the top 50 QS-ranked institutions, in the field of traffic applications of computer vision. All of the research interests mentioned above are applicable! Alternatively, associate professor positions or higher at China's Double First Class universities are also acceptable! </p>
 
 ## News
 * **[2024-01]** My first-authored paper "A Fast and Data-Efficient Deep Learning Framework for Multi-Class Fruit Blossom Detection", has been accepted by <i> Computers and Electronics in Agriculture (JCR Q1, IF=8.3)</i>!
