@@ -30,6 +30,8 @@ Academic conference
 
 Awards
 ======
+* 2024.11  President's Fellowship, Southeast University (Only 15 recipients university-wide, the highest scholarship honor for graduate students at Southeast University)
+* 2024.05  "Outstanding Youth" Graduate Student of the Year, Southeast University (Only 10 recipients university-wide, one of the highest honors for graduate students at Southeast University)
 * 2023.10	Graduate National Scholarship (Ph.D.)
 * 2023.10	"Academic Innovation" Advanced Individual of Southeast University
 * 2023.10	First Prize of Southeast University Academic Scholarship (Rank: 1/92)
@@ -42,9 +44,12 @@ Awards
 
 Academic Participation
 ======
+* Journal of Transportation Engineering and Information Journal	Young Editorial Board Member
 * Digital Transportation and Safety	Journal	Young Editorial Board Member
 * IEEE Transactions on Intelligent Transportation Systems	JCR Q1	Reviewer
-* IEEE Transactions on Vehicular Technology	JCR Q1	Reviewer
+* IEEE Transactions on Vehicular Technology	JCR Q1	Reviewer、
+* IEEE Transactions on Intelligent Vehicles JCR Q1	Reviewer
+* IEEE Transactions on Industrial Informatics	JCR Q1	Reviewer
 * Accident Analysis and Prevention	JCR Q1	Reviewer
 * Advanced Engineering Informatics	JCR Q1	Reviewer
 * Engineering Applications of Artificial Intelligence	JCR Q1	Reviewer
@@ -53,8 +58,8 @@ Academic Participation
 
 Academic Promotion
 ======
-* 2020.12-Present	Created WeChat public account "Deep Traffic", currently with **4,500+ followers**
-* 2019.12-Present	Shared over 75+ articles on visual perception technology on Zhihu (China's most famous knowledge sharing platform）, with over **2 million views** and **10,000+ followers**
+* 2020.12-Present	Created WeChat public account "Deep Traffic", currently with **8,000+ followers**
+* 2019.12-Present	Shared over 80+ articles on visual perception technology on Zhihu (China's most famous knowledge sharing platform）, with over **2 million views** and **10,000+ followers**
 
 
 

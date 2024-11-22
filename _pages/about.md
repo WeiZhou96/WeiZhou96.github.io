@@ -11,9 +11,9 @@ redirect_from:
 
 I am a Ph.D. candidate at Southeast University, advised by Prof. [Chen Wang](https://tc.seu.edu.cn/2019/1022/c25722a292001/pagem.htm). I am currently in the fourth year of my doctoral studies, expected to graduate before March 2025.
 
-As of now, I have published/accepted a total of **25 academic papers**, including both journal and conference papers. It is important to note that I have published  **11 papers** as the **first author/corresponding author in top journals**, such as *IEEE Transactions on Intelligent Transportation Systems* and *Automation in Construction*, with **9** of these papers in **JCR Q1** journals, including **5** papers published in **IEEE TITS** as **the first author**.
+As of now, I have published/accepted a total of **32 academic papers**, including both journal and conference papers. It is important to note that I have published  **12 papers** as the **first author/corresponding author in top journals**, such as *IEEE Transactions on Intelligent Transportation Systems* and *Automation in Construction*, with **10** of these papers in **JCR Q1** journals, including **5*6 papers published in **IEEE TITS** as **the first author**.
 
-Moreover, I also serve as a young editorial board member for Digital Transportation and Safety and am a reviewer for top journals including IEEE TITS, IEEE Transactions on Intelligent Vehicle (IEEE TIV), IEEE  Transactions on Vehicular Technology (TVT), Accident Analysis and Prevention (AAP), Advanced Engineering Informatics (AEI), Engineering Applications of Artificial Intelligence (EAAI), Journal of Cleaner Production (JCP), and Neural Networks (NN).
+Moreover, I also serve as a young editorial board member for Digital Transportation and Safety and Journal of  Transportation Engineering and Information. Also, I am a reviewer for top journals including IEEE TITS, IEEE TIV, IEEE  TVT  and IEEE TII.
 
 My research interest mainly includes the application of **computer vision** technology in the **transportation field**:
 * **2D/3D vehicle detection and tracking**: Focuses on visual sensors and LiDAR for roadside monitoring, targeting deficiencies  of existing detection/tracking methods under adverse weather/lighting conditions and complex traffic scenarios; Utilizes GAN generative methods and small object detection techniques to improve existing methods.
@@ -27,18 +27,19 @@ My research interest mainly includes the application of **computer vision** tech
 <p style="color:red">I am currently seeking postdoctoral positions abroad (excluding Mainland China), preferably within the top 50 QS-ranked institutions, in the field of traffic applications of computer vision. All of the research interests mentioned above are applicable! Alternatively, associate professor positions or higher at China's Double First Class universities are also acceptable! </p>
 
 ## News
+* **[2024-10]** My first-authored paper "Teaching Segment-Anything-Model Domain-Specific Knowledge for Road Crack Segmentation From On-Board Cameras", has been accepted by <i>  IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
 * **[2024-01]** My first-authored paper "A Fast and Data-Efficient Deep Learning Framework for Multi-Class Fruit Blossom Detection", has been accepted by <i> Computers and Electronics in Agriculture (JCR Q1, IF=8.3)</i>!
 * **[2023-11]** My first-authored paper "All-day Vehicle Detection from Surveillance Videos Based on Illumination-adjustable Generative Adversarial Network", has been accepted by <i> IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
 * **[2023-09]** My first-authored paper "Pedestrian Crossing Intention Prediction from Surveillance Videos for Over-the-horizon Safety Warning", has been accepted by <i> IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
 * **[2023-08]** My first-authored paper "Monitoring-based Traffic Participant Detection in Urban Mixed Traffic: A Novel Dataset and A Tailored Detector", has been accepted by <i> IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
 * **[2023-07]** My first-authored paper "An Appearance-Motion Network for Vision-based Crash Detection: Improving the Accuracy in Congested Traffic", has been accepted by <i> IEEE Transactions on Intelligent Transportation Systems (JCR Q1, IF=8.5)</i>!
 
-
 <!-- My research focuses on (1) causal inference in urban economics and transportation and (2) enhancing machine learning fairness in transportation planning and policy-making.  My previous research involves using causal inference methods to assess the impacts of emerging transportation tools like congestion pricing, EV charging infrastructure, and teleworking on mobility, environment, economy, and social equity. I am also committed to developing bias-mitigation algorithms to enhance fairness and equity in travel behavior analysis and demand prediction. -->
 
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=sjs1mJMEY-iiWesXdloOTpmL30elg6qZhqavfpQkTyk"></script> -->
 
 <!-- Google tag (gtag.js) -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0CH6XX06S"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

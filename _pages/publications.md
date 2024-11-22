@@ -72,7 +72,7 @@ These works provide an overview of my research.
 * <u>Zhou, W.</u>, Zhao, L., Huang, H., Chen, Y., Xu, S., & Wang, C. (2023). **Automatic waste detection with few annotated samples: improving waste management efficiency**. *Engineering Applications of Artificial Intelligence*, 120, 105865.  ( **JCR Q1, IF =8.0** ) <a href="https://doi.org/10.1016/j.engappai.2023.105865"> [Paper]</a>
 
 ## Large Models
-* <u>Zhou, W.</u>, Huang, H., Zhang, H.,  & Wang, C. * . **Teaching Segment-Anything-Model Domain-specific Knowledge for Road Crack Segmentation from On-board Cameras**. <i> IEEE Transactions on Intelligent Transportation Systems. </i> ( **JCR Q1, IF =8.5** )   (Major Revision)
+* <u>Zhou, W.</u>, Huang, H., Zhang, H.,  & Wang, C. * . **Teaching Segment-Anything-Model Domain-specific Knowledge for Road Crack Segmentation from On-board Cameras**. <i> IEEE Transactions on Intelligent Transportation Systems. </i> ( **JCR Q1, IF =8.5** )   <a href="https://doi.org/10.1109/tits.2024.3475371"> [Paper]</a>
 
 <figure>
   <img src="/images/SAM.png" alt="Your Figure" width="80%" height="auto">
