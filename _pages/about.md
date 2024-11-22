@@ -11,7 +11,7 @@ redirect_from:
 
 I am a Ph.D. candidate at Southeast University, advised by Prof. [Chen Wang](https://tc.seu.edu.cn/2019/1022/c25722a292001/pagem.htm). I am currently in the fourth year of my doctoral studies, expected to graduate before March 2025.
 
-As of now, I have published/accepted a total of **32 academic papers**, including both journal and conference papers. It is important to note that I have published  **12 papers** as the **first author/corresponding author in top journals**, such as *IEEE Transactions on Intelligent Transportation Systems* and *Automation in Construction*, with **10** of these papers in **JCR Q1** journals, including **5*6 papers published in **IEEE TITS** as **the first author**.
+As of now, I have published/accepted a total of **32 academic papers**, including both journal and conference papers. It is important to note that I have published  **12 papers** as the **first author/corresponding author in top journals**, such as *IEEE Transactions on Intelligent Transportation Systems* and *Automation in Construction*, with **10** of these papers in **JCR Q1** journals, including **6** papers published in **IEEE TITS** as **the first author**.
 
 Moreover, I also serve as a young editorial board member for Digital Transportation and Safety and Journal of  Transportation Engineering and Information. Also, I am a reviewer for top journals including IEEE TITS, IEEE TIV, IEEE  TVT  and IEEE TII.
 
