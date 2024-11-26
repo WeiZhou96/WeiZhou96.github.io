@@ -79,3 +79,11 @@ These works provide an overview of my research.
   <figcaption>Developing Parameter-efficient Transfer Learning Method on Segment-Anything-Model for Crack Segmentation </figcaption>
 </figure>
 
+## Surveys
+
+* <u>Zhou, W.</u>, Zhao, L., Zhang R., Huang, H., Cui Y., Qie K.,,  & Wang, C. * . **Teaching Segment-Anything-Model Domain-specific Knowledge for Road Crack Segmentation from On-board Cameras**. <i> IEEE Transactions on Intelligent Transportation Systems. </i> ( **JCR Q1, IF =8.5** )   <a href="https://doi.org/10.1109/tits.2024.3475371"> [Paper]</a>
+
+<figure>
+  <img src="/images/SAM.png" alt="Your Figure" width="80%" height="auto">
+  <figcaption>Developing Parameter-efficient Transfer Learning Method on Segment-Anything-Model for Crack Segmentation </figcaption>
+</figure>
