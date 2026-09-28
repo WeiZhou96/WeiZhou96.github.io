@@ -1,0 +1,56 @@
+{
+  "name": "Wei Zhou",
+  "chinese_name": "周威",
+  "role": "Associate Professor",
+  "department": "School of Automation",
+  "university": "Nanjing University of Science and Technology",
+  "email": "weizhou@njust.edu.cn",
+  "updated": "28 September 2026",
+  "faculty_url": "https://teacher.njust.edu.cn/zdh/zw/list.htm",
+  "scholar_url": "https://scholar.google.com/citations?user=pJQ6KKsAAAAJ",
+  "orcid_url": "https://orcid.org/0000-0003-3225-0576",
+  "researchgate_url": "https://www.researchgate.net/profile/Zhou-Wei-44",
+  "github_url": "https://github.com/weizhou96",
+  "intro": "I am an Associate Professor in the School of Automation at Nanjing University of Science and Technology (NJUST). My research focuses on embodied intelligence, computer vision, and multimodal foundation models, with applications in robotics and autonomous driving.",
+  "background": "I received my Ph.D. from the School of Transportation at Southeast University in 2025 and my B.S. from NJUST in 2019. I joined NJUST in April 2025.",
+  "research": [
+    {"title": "Embodied intelligence", "text": "Visual perception and multimodal learning for robots, with an interest in vision–language–action models and perception–decision systems.", "short": "Robotics · Vision–language–action"},
+    {"title": "Visual perception", "text": "Object detection, scene understanding, and learning with limited or cross-domain data in complex real-world environments.", "short": "Computer vision · Data-efficient learning"},
+    {"title": "Intelligent transportation", "text": "Traffic event understanding, pedestrian intention prediction, and visual perception for autonomous driving and road infrastructure.", "short": "Scene understanding · Safety"}
+  ],
+  "news": [
+    {"date": "Sep 2026", "text": "Student-led research at NeurIPS 2026 and Advanced Engineering Informatics.", "url": "https://teacher.njust.edu.cn/zdh/zw/list.htm", "label": "NJUST announcement"},
+    {"date": "Jul 2026", "text": "Our review of closed-loop intelligent quality control for robotic welding is announced in Robotics and Computer-Integrated Manufacturing.", "url": "https://doi.org/10.1016/j.rcim.2026.103375", "label": "Paper"},
+    {"date": "Sep 2025", "text": "Our holistic survey of vision technologies in traffic surveillance is published online in ACM Computing Surveys.", "url": "https://doi.org/10.1145/3760525", "label": "Paper"},
+    {"date": "Apr 2025", "text": "I joined the School of Automation at Nanjing University of Science and Technology as an Associate Professor.", "url": "https://teacher.njust.edu.cn/zdh/zw/list.htm", "label": "Faculty profile"}
+  ],
+  "appointments": [
+    {"date": "Apr 2025–present", "title": "Associate Professor", "text": "Department of Automatic Control, School of Automation, NJUST"}
+  ],
+  "education": [
+    {"date": "2019–2025", "title": "Ph.D., Southeast University", "text": "School of Transportation"},
+    {"date": "2015–2019", "title": "B.S., Nanjing University of Science and Technology", "text": "School of Automation"}
+  ],
+  "grants": [
+    {"date": "2026–2028", "title": "National Science and Technology Major Project", "text": "Principal investigator of a subproject"},
+    {"date": "2026–2028", "title": "National Natural Science Foundation of China", "text": "Young Scientists Fund (Category C) · Principal investigator"},
+    {"date": "2025–2028", "title": "Natural Science Foundation of Jiangsu Province", "text": "Young Scientists Fund · Principal investigator"},
+    {"date": "2025–2028", "title": "Jiangsu Provincial Science and Technology Major Project", "text": "Principal investigator of a subproject"}
+  ],
+  "service": [
+    {"journal": "Journal of Intelligent and Connected Vehicles", "role": "Young Editorial Board Member"},
+    {"journal": "Intelligence & Robotics", "role": "Young Editorial Board Member"},
+    {"journal": "Human-Centric Intelligent Systems", "role": "Young Editorial Board Member"},
+    {"journal": "Robot Learning", "role": "Young Editorial Board Member"},
+    {"journal": "Digital Transportation and Safety", "role": "Young Editorial Board Member"},
+    {"journal": "Journal of Transportation Engineering and Information", "role": "Editorial Board Member"}
+  ],
+  "awards": [
+    {"date": "2025", "title": "Outstanding Graduate", "text": "Southeast University"},
+    {"date": "2024", "title": "President’s Fellowship", "text": "Southeast University"},
+    {"date": "2024", "title": "Outstanding Youth Graduate Student of the Year", "text": "Southeast University"},
+    {"date": "2023", "title": "National Scholarship for Doctoral Students", "text": "Ministry of Education of China"},
+    {"date": "2023", "title": "First Prize, Outstanding Paper", "text": "Digital Transportation and Intelligent Mobility Academic Forum"},
+    {"date": "2022", "title": "Excellent Paper Award", "text": "World Transport Convention"}
+  ]
+}
