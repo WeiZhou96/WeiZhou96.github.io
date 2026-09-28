@@ -1,0 +1,45 @@
+name: Publish academic website
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Build and verify website
+        id: build
+        run: |
+          source_dir="."
+          if [ -f website/build_release.py ]; then source_dir="website"; fi
+          echo "directory=$source_dir/dist" >> "$GITHUB_OUTPUT"
+          cd "$source_dir"
+          python3 build_release.py
+          python3 verify_release.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ steps.build.outputs.directory }}
+  deploy:
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment
