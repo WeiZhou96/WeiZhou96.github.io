@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+dist/
+site/*.html
+site/*.bib
+site/expressive/*.html
+*-preview.png
+CONTENT_REVIEW.md
+CLAWD_ASSET.md
+VERIFICATION.md
