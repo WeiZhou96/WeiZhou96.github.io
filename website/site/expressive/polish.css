@@ -133,7 +133,7 @@
   .pub-year{font-size:17px}
   .join-banner{padding:30px 24px;border-radius:18px}
 }
-@media(prefers-reduced-motion:reduce){.name-last,.marquee-track,.pulse:after{animation:none!important}.marquee-window{-webkit-mask-image:none;mask-image:none}.marquee-track{width:auto;flex-wrap:wrap}.marquee-track li:nth-child(n+10){display:none}}
+/* All decorative motion follows the shared, persistent site toggle. */
 @media print{.stats-strip,.venue-marquee,.hero-badge{display:none}.name-last,.section-heading h2,.page-intro h1{-webkit-text-fill-color:black;background:none}.publication{border:0;border-bottom:1px solid #ddd;background:none;border-radius:0;padding:12px 0}.pub-tags{display:none}}
 
 /* Starfield backdrop */
@@ -150,3 +150,13 @@ body.expressive .wrap{max-width:var(--wrap-max,1296px)}
 .is-scaled .art-hero h1{font-size:118px}
 .is-scaled .visual-space{height:520px}
 @media print{body.expressive>.site-header,body.expressive>main,body.expressive>div.wrap{zoom:1}body.expressive .wrap{max-width:1296px}}
+
+/* A full-viewport galaxy, with the reading column kept dark. */
+.global-orbit{background:#060a17}
+.global-orbit #orbital-canvas{opacity:.1}
+.orbit-veil{background:linear-gradient(90deg,#060a17b8 0%,#060a1770 36%,#060a1710 72%),linear-gradient(0deg,#060a1740,transparent 35%,transparent 85%,#060a1730)}
+.motion-toggle{padding:7px 13px!important;border:1px solid #b3c4ff4d;border-radius:99px;color:#dbe6ff;background:#b3c4ff0b;white-space:nowrap}
+.motion-toggle:before{content:'Ⅱ';margin-right:7px;color:var(--accent)}
+.motion-paused .motion-toggle:before{content:'▶'}
+.motion-toggle:hover{background:#b3c4ff20;border-color:#b3c4ff99}
+@media(max-width:700px){.global-orbit #orbital-canvas{opacity:.07}.orbit-veil{background:#060a1766}}

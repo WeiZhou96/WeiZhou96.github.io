@@ -1,7 +1,11 @@
 (() => {
   'use strict';
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  let paused = reduced.matches;
+  // Explicit site preference: motion is on by default; the visitor can pause it.
+  const root = document.documentElement;
+  let paused = false;
+  try { paused = localStorage.getItem('wei-motion') === 'paused'; } catch (_) {}
+  root.classList.toggle('motion-paused', paused);
+  root.dataset.motion = paused ? 'paused' : 'playing';
   const toggle = document.querySelector('.motion-toggle');
   const canvas = document.querySelector('#orbital-canvas');
   let frame = null;
@@ -11,14 +15,19 @@
   let pointer = {x:0,y:0};
   let width = 0, height = 0;
   let context;
-  const syncButton = () => {if(toggle){toggle.textContent = paused ? 'Play motion' : 'Pause motion';toggle.setAttribute('aria-pressed',String(paused));}document.dispatchEvent(new CustomEvent('site:motion',{detail:{paused,reduced:reduced.matches}}));};
+  const syncButton = () => {
+    root.classList.toggle('motion-paused', paused);
+    root.dataset.motion = paused ? 'paused' : 'playing';
+    if(toggle){toggle.textContent = paused ? 'Play motion' : 'Pause motion';toggle.setAttribute('aria-pressed',String(paused));}
+    document.dispatchEvent(new CustomEvent('site:motion',{detail:{paused}}));
+  };
   function updateProgress() {
     const max = document.documentElement.scrollHeight - innerHeight;
     document.documentElement.style.setProperty('--progress', `${max > 0 ? scrollY / max * 100 : 0}%`);
   }
   addEventListener('scroll', updateProgress, {passive:true});
   updateProgress();
-  if ('IntersectionObserver' in window && !reduced.matches) {
+  if ('IntersectionObserver' in window && !paused) {
     const observer = new IntersectionObserver(entries => entries.forEach(entry => {
       if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}
     }), {threshold:0.06});
@@ -27,7 +36,7 @@
   if (!canvas) return;
   context = canvas.getContext('2d');
   if (!context) return;
-  if(toggle){toggle.hidden=false;syncButton();toggle.addEventListener('click',()=>{paused=!paused;syncButton();restart();});}
+  if(toggle){toggle.hidden=false;syncButton();toggle.addEventListener('click',()=>{paused=!paused;try{localStorage.setItem('wei-motion',paused?'paused':'playing');}catch(_){}syncButton();restart();});}
   function project(x,y,z) {
     const angle = phase*.12 + pointer.x*.15;
     const c=Math.cos(angle),s=Math.sin(angle);
@@ -87,6 +96,6 @@
   document.documentElement.addEventListener('pointerleave',()=>{pointer={x:0,y:0};});
   new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;restart();}).observe(canvas);
   document.addEventListener('visibilitychange',restart);
-  reduced.addEventListener('change',event=>{paused=event.matches;syncButton();document.querySelectorAll('.reveal-ready').forEach(el=>el.classList.add('is-visible'));restart();});
+  // OS preference changes must not overwrite an explicit site playback choice.
   resize();restart();
 })();

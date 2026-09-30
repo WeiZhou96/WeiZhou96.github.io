@@ -6,13 +6,12 @@
   const sprite = card.querySelector('.clawd-sprite');
   const status = card.querySelector('.clawd-state');
   const replay = card.querySelector('.clawd-replay');
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const messages = [
     'Hi, I’m Wei Zhou.\nI work on vision, robotics,\nand multimodal AI.',
     'Helping machines see,\nunderstand, and act.\nOne idea at a time.',
     'Curious about intelligent machines?\nLet’s explore together.'
   ];
-  let paused = reduced.matches;
+  let paused = document.documentElement.dataset.motion === 'paused';
   let visible = true;
   let frame = null;
   let previous = 0;
@@ -66,12 +65,6 @@
   replay.hidden=false;replay.addEventListener('click',reset);
   document.addEventListener('site:motion',event=>{
     paused=event.detail.paused;
-    if(event.detail.reduced){staticGreeting();state='hold';charIndex=messages[0].length;messageIndex=0;}
-    restart();
-  });
-  reduced.addEventListener('change',event=>{
-    paused=event.matches;
-    if(paused){staticGreeting();state='hold';messageIndex=0;charIndex=messages[0].length;}
     restart();
   });
   document.addEventListener('visibilitychange',restart);
