@@ -19,7 +19,8 @@
     {"title": "Intelligent transportation", "text": "Traffic event understanding, pedestrian intention prediction, and visual perception for autonomous driving and road infrastructure.", "short": "Scene understanding · Safety"}
   ],
   "news": [
-    {"date": "Sep 2026", "text": "Student-led research at NeurIPS 2026 and Advanced Engineering Informatics.", "url": "https://teacher.njust.edu.cn/zdh/zw/list.htm", "label": "NJUST announcement"},
+    {"date": "Sep 2026", "text": "Our paper “CARVE: Counterfactual Video Editing for Auditing and Hardening Video Detectors” is accepted at NeurIPS 2026.", "url": "publications.html", "label": "Publications"},
+    {"date": "Sep 2026", "text": "Our paper on knowledge-guided soft-consensus learning for pavement crack inspection is published in Advanced Engineering Informatics.", "url": "https://doi.org/10.1016/j.aei.2026.105264", "label": "Paper"},
     {"date": "Jul 2026", "text": "Our review of closed-loop intelligent quality control for robotic welding is announced in Robotics and Computer-Integrated Manufacturing.", "url": "https://doi.org/10.1016/j.rcim.2026.103375", "label": "Paper"},
     {"date": "Sep 2025", "text": "Our holistic survey of vision technologies in traffic surveillance is published online in ACM Computing Surveys.", "url": "https://doi.org/10.1145/3760525", "label": "Paper"},
     {"date": "Apr 2025", "text": "I joined the School of Automation at Nanjing University of Science and Technology as an Associate Professor.", "url": "https://teacher.njust.edu.cn/zdh/zw/list.htm", "label": "Faculty profile"}

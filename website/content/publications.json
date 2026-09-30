@@ -1,5 +1,30 @@
 [
   {
+    "id": "c-neurips-2026-carve",
+    "type": "conference",
+    "title": "CARVE: Counterfactual Video Editing for Auditing and Hardening Video Detectors",
+    "authors": [
+      "Wei Zhou",
+      "Chenyiming",
+      "Xu Jinwei",
+      "Yang Zhou",
+      "Quan Gan",
+      "Li Yang"
+    ],
+    "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "year": 2026,
+    "doi": "",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "featured": true,
+    "pin": true,
+    "source": "Author-provided title and author list (OpenReview submission page)",
+    "note": "Accepted at NeurIPS 2026; proceedings details to appear.",
+    "group": "2026",
+    "topic": "Visual perception"
+  },
+  {
     "id": "j-rcim-2026-103375",
     "title": "Closed-loop intelligent quality control for robotic welding: A survey on architecture, technologies, and system integration",
     "authors": [
