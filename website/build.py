@@ -10,23 +10,33 @@ PUBS = json.loads((ROOT / 'content/publications.json').read_text(encoding='utf-8
 E = lambda value: escape(str(value), quote=True)
 
 def bib(p):
+    if p.get('type') == 'conference':
+        fields = {'title': '{' + p['title'] + '}', 'author': ' and '.join(p['authors']), 'booktitle': p['venue'], 'year': p['year']}
+        return '@inproceedings{' + p['id'] + ',\n' + ',\n'.join('  ' + k + ' = {' + str(v) + '}' for k, v in fields.items() if v) + '\n}'
     fields = {'title': '{' + p['title'] + '}', 'author': ' and '.join(p['authors']), 'journal': p['venue'], 'year': p['year'], 'volume': p['volume'], 'number': p['issue'], 'pages': p['pages'].replace('-', '--'), 'doi': p['doi']}
     return '@article{' + p['id'] + ',\n' + ',\n'.join('  ' + k + ' = {' + str(v) + '}' for k, v in fields.items() if v) + '\n}'
 
 def publication(p):
     authors = ', '.join('<strong>Wei Zhou</strong>' if a == 'Wei Zhou' else E(a) for a in p['authors'])
+    conf = p.get('type') == 'conference'
     meta = E(p['volume']) + (f"({E(p['issue'])})" if p['issue'] else '')
     if p['pages']: meta += ': ' + E(p['pages'])
     meta += ', ' + str(p['year'])
+    link = f"https://doi.org/{E(p['doi'])}" if p['doi'] else E(p.get('url', ''))
+    title_html = f'<a href="{link}">{E(p["title"])}</a>' if link else E(p['title'])
+    paper_link = f'<a href="{link}">Paper ↗</a>' if link else ''
+    venue_html = f'<em>{E(p["venue"])}</em> ({p["year"]}).' if conf else f'<em>{E(p["venue"])}</em>, {meta}.'
     year = '2026<small>online</small>' if p['group'].startswith('2026 ·') else E(p['year'])
     note = f'<p class="pub-note">{E(p["note"])}</p>' if p['note'] else ''
     preprint = f'<a href="{E(p["preprint"])}">Preprint ↗</a>' if p.get('preprint') else ''
     searchable = ' '.join([p['title'], *p['authors'], p['venue'], p['topic'], p['doi']]).lower()
+    tags = ('<span class="tag-conf">Conference</span>' if conf else '') + f'<span>{E(p["topic"])}</span>' + ('<span class="tag-survey">Survey</span>' if 'survey' in p['title'].lower() else '')
     return f'''<li class="publication" data-publication data-year="{E(p['group'])}" data-topic="{E(p['topic'])}" data-search="{E(searchable)}">
       <div class="pub-year">{year}</div><article>
-      <h3 class="pub-title"><a href="https://doi.org/{E(p['doi'])}">{E(p['title'])}</a></h3>
-      <p class="authors">{authors}</p><p class="venue"><em>{E(p['venue'])}</em>, {meta}.</p>{note}
-      <div class="pub-links"><a href="https://doi.org/{E(p['doi'])}">Paper ↗</a>{preprint}<details><summary>BibTeX</summary><div class="bib-panel"><pre>{E(bib(p))}</pre><button class="small-button" data-copy-bib hidden type="button">Copy BibTeX</button></div></details></div>
+      <p class="pub-tags">{tags}</p>
+      <h3 class="pub-title">{title_html}</h3>
+      <p class="authors">{authors}</p><p class="venue">{venue_html}</p>{note}
+      <div class="pub-links">{paper_link}{preprint}<details><summary>BibTeX</summary><div class="bib-panel"><pre>{E(bib(p))}</pre><button class="small-button" data-copy-bib hidden type="button">Copy BibTeX</button></div></details></div>
       </article></li>'''
 
 def section(title, content, ident='', more=''):
@@ -55,7 +65,7 @@ socials = f'''<div class="socials"><a href="mailto:{P['email']}">Email</a><a hre
 hero = f'''<section class="hero" aria-label="About Wei Zhou"><div class="hero-copy"><p class="eyebrow">NJUST · School of Automation</p><h1>Wei Zhou <span class="cn" lang="zh-CN">周威</span></h1><p class="role">Associate Professor</p><p class="affiliation">School of Automation<br>Nanjing University of Science and Technology</p><p class="bio">{E(P['intro'])}</p><p class="bio">{E(P['background'])}</p>{socials}</div><figure class="portrait"><img src="assets/portrait.png" alt="Portrait of Wei Zhou" width="186" height="246" fetchpriority="high"><figcaption>Nanjing, China<a href="{P['faculty_url']}">University profile ↗</a></figcaption></figure></section>'''
 research = '<div class="research-list">' + ''.join(f'<article class="research-item"><span class="research-index">0{i+1}</span><h3>{E(r["title"])}</h3><p>{E(r["text"])}</p></article>' for i,r in enumerate(P['research'])) + '</div>'
 news = '<ul class="news-list">' + ''.join(f'<li><time>{E(n["date"])}</time><p>{E(n["text"])} <a href="{E(n["url"])}">{E(n["label"])} ↗</a></p></li>' for n in P['news']) + '</ul>'
-selected = sorted([p for p in PUBS if p['featured']],key=lambda p:(p['year'],p['doi']),reverse=True)
+selected = sorted([p for p in PUBS if p['featured']],key=lambda p:(bool(p.get('pin')),p['year'],p['doi']),reverse=True)
 home = hero + '<aside class="invitation"><p><strong>Prospective students.</strong> I welcome students interested in robotics, computer vision, and multimodal learning.</p><a href="join.html">Working with me →</a></aside>'
 home += section('Research interests',research,'research') + section('News',news,'news')
 home += section('Selected publications','<ul class="pub-list">'+''.join(publication(p) for p in selected)+'</ul>','selected-publications','<a href="publications.html">Browse publications →</a>')
