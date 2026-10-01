@@ -26,6 +26,7 @@
   },
   {
     "id": "j-rcim-2026-103375",
+    "corresponding_authors": ["Wei Zhou"],
     "title": "Closed-loop intelligent quality control for robotic welding: A survey on architecture, technologies, and system integration",
     "authors": [
       "Cheng Qiu",
@@ -48,6 +49,7 @@
   },
   {
     "id": "j-aei-2026-105264",
+    "corresponding_authors": ["Li Yang"],
     "title": "Knowledge-guided soft-consensus learning for ambiguity-aware pavement crack inspection",
     "authors": [
       "Wei Zhou",
@@ -95,6 +97,7 @@
   },
   {
     "id": "tiv-2024-3510563",
+    "corresponding_authors": ["Chen Wang"],
     "title": "Synthesizing Realistic Traffic Events From UAV Perspectives: A Mask-Guided Generative Approach Based on Style-Modulated Transformer",
     "authors": [
       "Wei Zhou",
