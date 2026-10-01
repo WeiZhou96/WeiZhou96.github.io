@@ -17,7 +17,18 @@ def bib(p):
     return '@article{' + p['id'] + ',\n' + ',\n'.join('  ' + k + ' = {' + str(v) + '}' for k, v in fields.items() if v) + '\n}'
 
 def publication(p):
-    authors = ', '.join('<strong>Wei Zhou</strong>' if a == 'Wei Zhou' else E(a) for a in p['authors'])
+    corresponding = set(p.get('corresponding_authors', []))
+    if not corresponding.issubset(p['authors']):
+        raise ValueError(f"Corresponding author missing from author list: {p['id']}")
+    author_names = []
+    for author in p['authors']:
+        name = E(author)
+        if author in corresponding:
+            name += '<sup class="corresponding-marker" title="Corresponding author" aria-label="Corresponding author">†</sup>'
+        author_names.append(f'<strong>{name}</strong>' if author == 'Wei Zhou' else name)
+    authors = ', '.join(author_names)
+    if corresponding:
+        authors += '<span class="author-legend">† Corresponding author</span>'
     conf = p.get('type') == 'conference'
     meta = E(p['volume']) + (f"({E(p['issue'])})" if p['issue'] else '')
     if p['pages']: meta += ': ' + E(p['pages'])
