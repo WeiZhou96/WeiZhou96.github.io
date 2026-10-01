@@ -5,7 +5,7 @@
   "department": "School of Automation",
   "university": "Nanjing University of Science and Technology",
   "email": "weizhou@njust.edu.cn",
-  "updated": "28 September 2026",
+  "updated": "1 October 2026",
   "faculty_url": "https://teacher.njust.edu.cn/zdh/zw/list.htm",
   "scholar_url": "https://scholar.google.com/citations?user=pJQ6KKsAAAAJ",
   "orcid_url": "https://orcid.org/0000-0003-3225-0576",
@@ -36,7 +36,9 @@
     {"date": "2026–2028", "title": "National Science and Technology Major Project", "text": "Principal investigator of a subproject"},
     {"date": "2026–2028", "title": "National Natural Science Foundation of China", "text": "Young Scientists Fund (Category C) · Principal investigator"},
     {"date": "2025–2028", "title": "Natural Science Foundation of Jiangsu Province", "text": "Young Scientists Fund · Principal investigator"},
-    {"date": "2025–2028", "title": "Jiangsu Provincial Science and Technology Major Project", "text": "Principal investigator of a subproject"}
+    {"date": "2025–2028", "title": "Jiangsu Provincial Science and Technology Major Project", "text": "Principal investigator of a subproject"},
+    {"date": "Ongoing", "title": "State Grid / NARI Commissioned Research", "text": "Principal investigator · Research outsourcing for the NARI 2026 power-grid cross-embodiment intelligent model and ROS2 system fusion control project"},
+    {"date": "Jun 2026–Jun 2028", "title": "Fundamental Research Funds for the Central Universities (AI Special), NJUST", "text": "Principal investigator · Key technologies of an embodied decision brain for industrial multi-arm robot collaboration"}
   ],
   "service": [
     {"journal": "Journal of Intelligent and Connected Vehicles", "role": "Young Editorial Board Member"},
